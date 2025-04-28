@@ -3,7 +3,8 @@ name: Rodar Bot de Apostas
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Executar todos os dias às 5h (horário UTC)
+    - cron: '0 8 * * *'  # Executa todos os dias às 5h da manhã no horário de Brasília
+
 
 jobs:
   run-script:
