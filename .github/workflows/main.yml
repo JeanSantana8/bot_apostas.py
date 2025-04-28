@@ -1,9 +1,9 @@
+
 name: Rodar Bot de Apostas
 
 on:
   schedule:
     - cron: '0 5 * * *'  # Executar todos os dias às 5h (horário UTC)
-  workflow_dispatch:  # Permite rodar manualmente se necessário
 
 jobs:
   run-script:
@@ -20,3 +20,4 @@ jobs:
 
       - name: Rodar o bot de apostas
         run: python bot_apostas.py
+
